@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <!-- MAIN CONTENT -->
+    <main class=" max-w-screen-xl mx-auto px-16 lg:px-28">
+        <header class="flex items-center">
+
+
+            <!-- TEXT CONTENT -->
+            <div>
+                <h1 class="text-5xl md:text-7xl">It's good <br> tea time at The <br> Tea House</h1>
+                <p class="w-3/4 mt-6 mb-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste
+                    Buds.</p>
+                <button class="p-3 rounded-lg font-bold text-white bg-gradient-to-r from-[#FF7E33] to-[#FF0904]">Explore
+                    More</button>
+            </div>
+
+
+            <!-- IMAGE CONTENT -->
+            <div class="relative">
+                <div>
+                    <img src="./images/banner.png" alt="">
+                </div>
+                <div class="flex bg-white shadow-2xl px-2 py-2 md:px-10 lg:py-4 absolute rounded-lg top-32 md:top-80 md:right-48">
+                    <div>
+                        <h2 class="font-bold">5.00</h2>
+                        <p>Trust Pilot Rating</p>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+    </main>
+
+</body>
+
+</html>
